@@ -97,6 +97,7 @@ int main()
 
     std::cout << combinations << std::endl;
 
+    // set sorts strings
     std::set<std::string> words;
 
     generateStrings(words, letters, (u64)input.size(), "");
